@@ -6,16 +6,16 @@ Final Project – Data Analyst SQL Class
 DSA _ Incubator Hub
 
 👨‍💻 By: Raji Qoyum Oladimeji
-##  📂 Project Overview
+###  📂 Project Overview
 
-This project involves analyzing KMS Sales Data using SQL Server. It includes complex SQL operations such as joins, aggregations, data cleaning, and business insights to help KMS make better decisions.
+This project involves analyzing KMS Sql Case Study using SQL Server. It includes complex SQL operations such as joins, aggregations, data cleaning, and business insights to help KMS make better decisions.
 
-## 🗃️ Datasets Used
+### 🗃️ Datasets Used
 
-- SalesData — Main dataset including orders, customers, products, and shipping.
+- KMS Sql Case Study — Main dataset including orders, customers, products, and shipping.
 - Order_Status — Additional dataset showing returned orders.
 
-## 🔍 Business Questions Answered
+### 🔍 Business Questions Answered
 
 1.1. Which product category had the highest sales?
 
@@ -39,7 +39,8 @@ This project involves analyzing KMS Sales Data using SQL Server. It includes com
 
 11.11. Was the shipping method appropriate for the order priority?
 
-## 🧾 Key SQL Concepts Used
+### 🧾 Key SQL Concepts Used
+
 - GROUP BY, SUM, COUNT, AVG
 
 - JOIN (handling duplicates with subqueries)
@@ -50,8 +51,9 @@ This project involves analyzing KMS Sales Data using SQL Server. It includes com
 
 - Data Cleaning & De-duplication
 
-## 🧩 Sample Query: TOP 10 CUSTOMERS THAT RETURNED ITEMS
+### 🧩 Sample Query: TOP 10 CUSTOMERS THAT RETURNED ITEMS
 
+```
 SELECT TOP 10
 
 	sd.Customer_Name,
@@ -72,7 +74,9 @@ GROUP BY sd.Customer_Name, sd.Customer_Segment
 
 ORDER BY Return_Count DESC;
 
-## ✅ Result Highlights
+```
+
+### ✅ Result Highlights
 
 - Top product category: Technology
   
@@ -82,7 +86,7 @@ ORDER BY Return_Count DESC;
   
 - Returned orders linked to Consumer segment
 
-## 📈 Tools & Tech Stack
+### 📈 Tools & Tech Stack
 
 - SQL Server 2022
   
@@ -92,7 +96,7 @@ ORDER BY Return_Count DESC;
   
 - GitHub (for version control)
 
-## 🎓 Final Notes
+### 🎓 Final Notes
 
 This project showcases my ability to:
 
@@ -102,7 +106,7 @@ This project showcases my ability to:
   
 - Extract business insights from raw data
 
-## 🔗 Connect with Me
+### 🔗 Connect with Me
 
 📧 Email: rajiqoyum09@gmail.com
 
